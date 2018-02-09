@@ -1,0 +1,30 @@
+header,div{
+  width: 100%; 
+  height: 100%
+  background-color: #EEBE47;
+  margin-bottom: 9px;
+  background-image: url(kids5.jpg) 
+
+}
+h1 {
+	font-size: 70px;
+	position: relative;
+	top: -160px;
+	text-align: center;
+}
+body {
+	background-image: url(kids10.jpg);
+	background-size: 80%;
+
+}/*nepoimy ne ybiraet tochki i ne smeshaetsya*/
+.menu {
+	float: right;
+}
+.menu li{
+	list-style-type: none;
+}
+.menu a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: arial, calibri, 'sans-serif'
+}
