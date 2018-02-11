@@ -1,0 +1,20 @@
+#header {
+width: 100%;
+height: 252px;
+background: url(kids10.jpg);
+}
+
+div h1{
+	color: white;
+	font-size: 70px;
+	position: relative;
+	top: -160px;
+	text-align: center;
+}
+body{
+	background-image: url(kids38.jpg);
+
+}
+h3{
+	margin: 50px;
+}
