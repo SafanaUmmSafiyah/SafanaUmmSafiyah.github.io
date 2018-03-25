@@ -1,0 +1,79 @@
+body{
+    background-image: url(fon3.jpg); /* Путь к фоновому изображению */
+    background-size: 100%; 
+   
+}
+
+h1{
+	margin: 20px;
+	padding: 30px;
+	font-style: italic;
+	color: #6212E2;
+
+}
+div a{
+	margin: 2px 0 1px;
+    padding: 1px 0 1px;
+    text-align: left;
+    background: none;
+    font-size: 15px;
+}
+div span{
+	margin: 40px;
+	padding: 20px 100px 550px 200px;
+	
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 1px 0 1px;
+  padding: 1px 0 1px;
+  text-align: center;
+  background: none;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #2A96EE;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+	text-shadow: 1px 1px 2px black, 0 0 1em gray;
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 20px 0 15px;
+  font-size: 17px;
+  font-style: oblique; 
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: black;}
+.menu-main a.current, .menu-main a:hover{color: black;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #A0D2E9;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
